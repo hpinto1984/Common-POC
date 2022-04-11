@@ -1,0 +1,27 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "CommonDecoupledPkg",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-appCopy",
+            "package": "ISDDecoupledPkg",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "Common",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "54.0",
+    "packageAliases": {
+        "CommonDecoupledPkg": "0Ho7R000000sXwfSAE",
+        "ISDDecoupledPkg": "0Ho7R000000sXwkSAE",
+        "CommonDecoupledPkg@0.1.0-1": "04t7R000001yJbDQAU"
+    }
+}
